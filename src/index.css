@@ -24,6 +24,10 @@ body {
     margin-bottom: 20px;
 
 }
+
+.judul{
+    color: #041D30;
+}
 ul {
     padding: 0;
     margin: auto;
@@ -89,6 +93,7 @@ li {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    
 }
 
 .halo {
@@ -114,14 +119,14 @@ li {
 .request{
     margin-top: 10px;
     width: auto;
-    background-color: rgb(0, 30, 66);
+    background-color: #091D2E;
     color:  white;
     padding: 20px;
     border-radius: 20px;
 }
 
 .request-button {
-    background-color: rgb(209, 153, 0) ;
+    background-color: #CEA700 ;
     border-radius: 20px;
     border-style: none ;
     width: 50%;
@@ -130,4 +135,26 @@ li {
     font-weight: bold;
     cursor: pointer;
     
+}
+
+.head-queue{
+    color: #041D30;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    
+}
+
+.view-button{
+    color: #CEA700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.box {
+    background-color: #EEF1F0;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
 }
